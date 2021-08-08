@@ -1,6 +1,0 @@
-﻿  printHello.cpp
-C:\Users\yousa\source\repos\printHello\printHello\printHello.cpp(15,2): error C2065: 'cout': undeclared identifier
-C:\Users\yousa\source\repos\printHello\printHello\printHello.cpp(15,28): error C2065: 'endl': undeclared identifier
-C:\Users\yousa\source\repos\printHello\printHello\printHello.cpp(16,2): error C2065: 'cout': undeclared identifier
-C:\Users\yousa\source\repos\printHello\printHello\printHello.cpp(16,28): error C2065: 'endl': undeclared identifier
-C:\Users\yousa\source\repos\printHello\printHello\printHello.cpp(17,2): error C3861: 'system': identifier not found
