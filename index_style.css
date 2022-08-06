@@ -1,0 +1,81 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120px;
+    position: absolute;
+    top: 30%;
+    left: 39%;
+    margin: 0 auto;
+}
+
+.textSearch {
+    width: 40%;
+    height: 4%;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    padding-left: 30px;
+    position: absolute;
+    top: 47%;
+    left: 33%;
+}
+
+.searchButton {
+    position: absolute;
+    top: 53%;
+    left: 44%;
+}
+
+.luckyButton {
+    position: absolute;
+    top: 53%;
+    left: 55%;
+}
+
+.links {
+    position: absolute;
+    top: 3%;
+    left: 80%;
+}
+
+.links a {
+    margin: 10px;
+}
+
+.container {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+p {
+    padding-right: 20px;
+}
+
+.advancedText {
+    width: 50%;
+    position: absolute;
+    left: 18%;
+}
+
+.advancedButton {
+    position: relative;
+    left: 56%;
+}
+
+h5 {
+    position: absolute;
+    top: -12%;
+    left: 0%;
+}
+
+.smallhead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 20px;
+}
+
+h4 {
+    color: brown;
+    position: absolute;
+    top: -40%;
+    left: 0%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="index_style.css">
+    </head>
+    <body>
+        <div class="smallhead">
+            <span style="color:blue">G</span>
+            <span style="color:red">o</span>
+            <span style="color:orange">o</span>
+            <span style="color:blue">g</span>
+            <span style="color:green">l</span>
+            <span style="color:red">e</span>
+        </div>
+        <div class="container">
+            <h4>Advanced Search</h4>
+            <h5>Find pages with...</h5>
+            <br>
+            <form action="https://www.google.ca/search">
+                <div class="row">
+                    <p>all these words:</p>
+                    <input type="text", name="as_q", class="advancedText"> <!-- All these words -->
+                </div>
+                <br>
+                <div class="row">
+                    <p>this exact word or phrase:</p>
+                    <input type="text", name="as_epq", class="advancedText"> <!-- This exact word or phrase -->
+                </div>
+                <br>
+                <div class="row">
+                    <p>any of these words:</p>
+                    <input type="text", name="as_oq", class="advancedText"> <!-- Any of these words -->
+                </div>
+                <br>
+                <div class="row">
+                    <p>none of these words:</p>
+                    <input type="text", name="as_eq", class="advancedText"> <!-- None of these words -->
+                </div>
+                <br>
+                <input type="submit", value="Advanced Search", class="advancedButton">
+            </form>
+        </div>
+        <div class="links">
+            <a href="index.html">Search</a>
+        </div>
+    </body>
+</html>
